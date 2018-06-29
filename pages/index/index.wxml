@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <open-data type="userAvatarUrl" class='userinfo-avatar'></open-data>
+    <open-data type="userNickName"></open-data>
+  </view>
+  <view class="info_list">
+    <block wx:for="{{userListInfo}}">
+      <navigator url="{{item.url}}" hover-class="other-navigator-hover">
+        <view class="weui_cell" >
+            <!-- <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view> -->
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+            <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+        </view>
+       
+      </navigator>
+       <view wx:if="{{item.order}}"class='orderStatus'>
+        <block wx:for="{{orderStatus}}">
+          <view class='unitOrder'>
+            <image src='{{item.image}}'></image>
+            <text>{{item.text}}</text>
+          </view>
+        </block>
+       </view>
+    </block>
+  </view>
+</view>

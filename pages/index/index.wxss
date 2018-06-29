@@ -1,0 +1,103 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background: #F2F2F2 url(http://llwell-wxapp.oss-cn-beijing.aliyuncs.com/Store/img_logo@3x.png) no-repeat center 95%;
+  background-size: 70% ;
+  }
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 0;
+  align-items: center;
+  background: #FFF;
+  height: 300rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.userinfo-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.userinfo-nickname {
+  color: #333;
+}
+.weui_cell{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20rpx;
+    background: #fff;
+}
+
+.weui_cell::after{
+  position: absolute;
+  top: 35rpx;
+  right: 26rpx;
+  content: "";
+     display: inline-block;
+     height: 15rpx;
+     width: 15rpx;
+     border-width: 4rpx 4rpx 0 0;
+     border-color: #C7C7CC;
+     border-style: solid;
+     transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+}
+.info_list navigator:nth-child(4) .weui_cell{
+  margin-bottom: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.info_list navigator:nth-child(1) .weui_cell{
+  margin-bottom: 0;
+}
+.weui_cell_hd{
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+}
+.weui_cell_hd image{
+  width: 100%;
+  height: 20px;
+  vertical-align: -2px;
+}
+.weui_cell_bd{
+  display: inline-block;
+}
+.weui_cell_bd_p{
+  font-size: 34rpx;
+  color: #000;
+}
+/* .badge{
+  position: absolute;
+  top: 18px;
+  right: 40px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  background: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 8px;
+} */
+.orderStatus{
+  background: #fff;
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.unitOrder{
+  flex: 1;
+  padding: 50rpx;
+}
+.unitOrder image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.unitOrder text{
+  color: #696767;
+  font-size: 28rpx;
+}

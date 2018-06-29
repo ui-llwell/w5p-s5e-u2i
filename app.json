@@ -1,0 +1,23 @@
+{
+  "pages":[
+   "pages/start/start",
+   "pages/index/index",
+   "pages/barRanking/index",
+   "pages/barSquare/index",
+   "pages/indexx/index",
+   "pages/noshop/noshop",
+    
+    "pages/second/second",
+    "pages/myOrder/myOrder",
+    "pages/authorize/index",
+    "pages/show/show"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FAFAFC",
+    "navigationBarTitleText": "流连优选",
+    "navigationBarTextStyle":"black"
+  }
+  
+}

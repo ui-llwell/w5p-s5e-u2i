@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "zan-card": "../../zanUI/card/index",
+    "zan-capsule": "../../zanUI/capsule/index",
+    "zan-icon": "../../zanUI/icon/index"
+  }
+}

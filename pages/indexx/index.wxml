@@ -1,0 +1,56 @@
+<view class='indexWrap'>
+     <view class="commodityImages">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view> 
+    <view class='headline'>好物品评</view>
+    <view class='unit'>
+      <view class='uppic'>
+        <image src='http://llwell-wxapp.oss-cn-beijing.aliyuncs.com/A-test/goodtest.png'></image>
+        <icon class='iconDefault'></icon>
+      </view>
+      <view class='title'>
+        <text class='price'>¥128</text>
+        <text class='sign'>小样</text>
+        <text class='mes'>美宝莲(MAdjKJASKDKF)遮瑕光感新颜时间肯定会</text>
+      </view>
+      <view class='word clearfix'>
+        <view class='detail fl'>
+          <view>52人已抢拍，剩余48件</view>
+          <view>限购数量：1件</view>
+          <view>限购时间：2018.6.01-2018.6.08</view>
+        </view>
+        <view class='btn fr'>
+          <button class='btnForword' type="" size="normal">敬请期待</button>
+        </view>
+      </view>
+    </view>
+
+    <view class='unit'>
+      <view class='uppic'>
+        <image src='http://llwell-wxapp.oss-cn-beijing.aliyuncs.com/A-test/goodtest.png'></image>
+        <icon class='iconDefault'></icon>
+      </view>
+      <view class='title'>
+        <text class='price'>¥128</text>
+        <text class='sign'>小样</text>
+        <text class='mes'>美宝莲(MAdjKJASKDKF)遮瑕光感新颜时间肯定会</text>
+      </view>
+      <view class='word clearfix'>
+        <view class='detail fl'>
+          <view>52人已抢拍，剩余48件</view>
+          <view>限购数量：1件</view>
+          <view>限购时间：2018.6.01-2018.6.08</view>
+        </view>
+        <view class='btn fr'>
+          <!-- <button class='' type="primary" size="normal">按钮</button> -->
+        </view>
+      </view>
+    </view>
+
+</view>
