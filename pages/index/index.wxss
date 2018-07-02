@@ -101,3 +101,13 @@ page{
   color: #696767;
   font-size: 28rpx;
 }
+.connect{
+  width: 100%;
+  position: absolute;
+  top: 768rpx;
+  /* margin-top: -200rpx; */
+}
+.connect contact-button{
+  width: 100%;
+  height: 86rpx;
+}

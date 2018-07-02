@@ -7,7 +7,7 @@
   <view class="info_list">
     <block wx:for="{{userListInfo}}">
       <navigator url="{{item.url}}" hover-class="other-navigator-hover">
-        <view class="weui_cell" >
+        <view class="weui_cell" bindtap='{{item.method}}'>
             <!-- <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view> -->
             <view class="weui_cell_bd">
                 <view class="weui_cell_bd_p"> {{item.text}} </view>
@@ -18,12 +18,16 @@
       </navigator>
        <view wx:if="{{item.order}}"class='orderStatus'>
         <block wx:for="{{orderStatus}}">
-          <view class='unitOrder'>
+          <view class='unitOrder' bindtap='{{item.methodStatus}}'>
             <image src='{{item.image}}'></image>
             <text>{{item.text}}</text>
           </view>
         </block>
        </view>
+       <view wx:if="{{item.connect}}" class='connect'>
+        <contact-button size="750" session-from="weapp" type="default-dark" style='opacity:1;width:750rpx'></contact-button>
+       </view>
+
     </block>
   </view>
 </view>
