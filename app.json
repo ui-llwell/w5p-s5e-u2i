@@ -2,6 +2,7 @@
   "pages":[
    "pages/start/start",
    "pages/index/index",
+   "pages/aboutUs_s/index",
    "pages/barRanking/index",
    "pages/barSquare/index",
    "pages/indexx/index",

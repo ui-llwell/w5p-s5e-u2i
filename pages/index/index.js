@@ -27,7 +27,8 @@ Page({
       // unreadNum: 1
     }, {
       icon: '',
-      text: '关于我们'
+      text: '关于我们',
+      url: '../aboutUs_s/index',
     }],
     orderStatus:[
       {

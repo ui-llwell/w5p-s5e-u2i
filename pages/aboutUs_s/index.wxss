@@ -1,0 +1,19 @@
+/**index.wxss**/
+page{
+  background: #f2f2f2;
+}
+.aboutUs_s{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+   align-items: center; 
+}
+.aboutUs_s image{
+  margin: 280rpx auto 160rpx;
+  width: 276rpx;
+  height: 236rpx;
+}
+.aboutUs_s view text{
+  color: #000;
+  font-size: 20rpx;
+}
